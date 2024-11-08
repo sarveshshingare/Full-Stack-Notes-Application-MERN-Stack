@@ -9,6 +9,11 @@ const mongoose = require("mongoose");
 
 mongoose.connect(config.connectionString);
 
+// const mongoose = require("mongoose");
+
+// // Use environment variable for MongoDB connection string
+// mongoose.connect(process.env.MONGO_CONNECTION_STRING || config.connectionString);
+
 const User = require("./models/user.model");
 const Note = require("./models/note.model");
 const express = require("express");
@@ -307,12 +312,11 @@ app.get("/search-notes", authenticateToken, async (req, res) => {
         { content: { $regex: new RegExp(query, "i") } },
       ],
     });
-return res.json({
-  error:false,
-  notes:matchingNotes,
-  message:"Notes matching the search query retrived successfully"
-})
-
+    return res.json({
+      error: false,
+      notes: matchingNotes,
+      message: "Notes matching the search query retrived successfully",
+    });
   } catch (error) {
     return res.status(500).json({
       error: true,
