@@ -74,21 +74,40 @@ This project is a full-stack Notes application built with the MERN (MongoDB, Exp
 
 ## Folder Structure
 
-```plaintext
-Full-Stack-Notes-Application-MERNStack
-├── backend
-│   ├── config
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── middleware
-│   └── server.js
-└── frontend
-    ├── src
-    │   ├── components
-    │   ├── pages
-    │   ├── services
-    │   └── App.js
+
+```
+FULL-STACK-NOTES-APPLICATION-MERN-STACK
+├── Backend
+│   ├── models               # Mongoose models for MongoDB
+│   ├── node_modules         # Node.js dependencies
+│   ├── .dockerignore        # Docker ignore file
+│   ├── .env                 # Environment variables
+│   ├── .gitignore           # Git ignore file
+│   ├── config.json          # Configuration file for MongoDB connection
+│   ├── Dockerfile           # Dockerfile for backend
+│   ├── index.js             # Entry point for backend
+│   ├── package-lock.json    # Lock file for dependencies
+│   ├── package.json         # Backend project dependencies
+│   └── utilities.js         # Utility functions for backend
+├── Frontend
+│   ├── dist                 # Build directory for static files
+│   ├── node_modules         # Node.js dependencies for frontend
+│   ├── public               # Public assets (e.g., index.html)
+│   ├── src                  # Source code for React app
+│   ├── .gitignore           # Git ignore file for frontend
+│   ├── Dockerfile           # Dockerfile for frontend
+│   ├── eslint.config.js     # ESLint configuration
+│   ├── index.html           # Main HTML file for React app
+│   ├── jsconfig.json        # JavaScript configuration for frontend
+│   ├── nginx.conf           # NGINX configuration file for serving frontend
+│   ├── package-lock.json    # Lock file for frontend dependencies
+│   ├── package.json         # Frontend project dependencies
+│   ├── postcss.config.js    # PostCSS configuration
+│   ├── tailwind.config.js   # Tailwind CSS configuration
+│   └── vite.config.js       # Vite configuration for React app
+├── Screenshots              # Folder containing screenshots for README
+├── README-for-dockerizing-the-app.md  # Instructions for Dockerizing and deploying the app
+└── README.md                # Main README file
 ```
 
 ## API Endpoints
@@ -112,7 +131,22 @@ Full-Stack-Notes-Application-MERNStack
 - Implement note categories and tags
 - Add reminders for notes
 
+### Dockerizing and Deploying the Application on EC2
+
+For a comprehensive guide on Dockerizing this application and deploying it on an AWS EC2 instance, please refer to the [README for Dockerizing the App](./README-for-dockerizing-the-app.md).
+
+
+## Application Screenshots
+
+### Login Page
+![Login Page](./screenshots/login.png)
+
+### Notes Dashboard
+![Notes Dashboard](./screenshots/dashboard.png)
+
+### Note Creation
+![Note Creation](./screenshots/signup.png)
+
 ## License
 
 This project is licensed under the MIT License.
-
