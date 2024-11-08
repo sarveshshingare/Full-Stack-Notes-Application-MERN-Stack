@@ -116,6 +116,18 @@ Full-Stack-Notes-Application-MERNStack
 
 For a comprehensive guide on Dockerizing this application and deploying it on an AWS EC2 instance, please refer to the [README for Dockerizing the App](./README-for-dockerizing-the-app.md).
 
+
+## Application Screenshots
+
+### Login Page
+![Login Page](./screenshots/login.png)
+
+### Notes Dashboard
+![Notes Dashboard](./screenshots/dashboard.png)
+
+### Note Creation
+![Note Creation](./screenshots/signup.png)
+
 ## License
 
 This project is licensed under the MIT License.
