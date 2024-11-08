@@ -120,13 +120,13 @@ For a comprehensive guide on Dockerizing this application and deploying it on an
 ## Application Screenshots
 
 ### Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](./Screenshots/login.png)
 
 ### Notes Dashboard
-![Notes Dashboard](./screenshots/dashboard.png)
+![Notes Dashboard](./Screenshots/dashboard.png)
 
 ### Note Creation
-![Note Creation](./screenshots/signup.png)
+![Note Creation](./Screenshots/signup.png)
 
 ## License
 
