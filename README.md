@@ -147,7 +147,6 @@ For a comprehensive guide on Dockerizing this application and deploying it on an
 
 ### Note Creation
 ![Note Creation](./Screenshots/signup.png)
->>>>>>> 5f2bfb6200cf6df2e20c7fbd388094e40c619ab4
 
 ## License
 
