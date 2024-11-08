@@ -112,6 +112,10 @@ Full-Stack-Notes-Application-MERNStack
 - Implement note categories and tags
 - Add reminders for notes
 
+### Dockerizing and Deploying the Application on EC2
+
+For a comprehensive guide on Dockerizing this application and deploying it on an AWS EC2 instance, please refer to the [README for Dockerizing the App](./README-for-dockerizing-the-app.md).
+
 ## License
 
 This project is licensed under the MIT License.
